@@ -1,0 +1,11 @@
+buildscript {
+    apply from: rootProject.file('dependencies.gradle')
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath buildLibraries.kotlin
+    }
+}

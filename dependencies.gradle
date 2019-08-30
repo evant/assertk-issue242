@@ -1,0 +1,16 @@
+ext.versions = [
+        kotlin            : '1.3.31',
+        assertk           : '0.19'
+]
+
+ext.buildLibraries = [
+        kotlin       : "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
+]
+
+ext.libraries = [
+        kotlin               : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$versions.kotlin"
+]
+
+ext.testLibraries = [
+        assertk         : "com.willowtreeapps.assertk:assertk-jvm:$versions.assertk"
+]
